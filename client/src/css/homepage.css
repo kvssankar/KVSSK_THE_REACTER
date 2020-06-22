@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding:wght@700&display=swap");
+body {
+  overflow-x: hidden;
+}
+
+.bg {
+  position: absolute;
+  width: 100%;
+  background-color: #262729;
+  background-size: cover;
+  height: 100%;
+  pointer-events: none;
+  z-index: -2;
+}
+
+/* .bg::after {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(
+    rgba(255, 255, 255, 0.8),
+    rgba(255, 255, 255, 0.2)
+  );
+} */
+
+.tab-space {
+  display: inline-block;
+  margin-left: 40px;
+}
+
+.quote-main {
+  position: absolute;
+  top: 10%;
+  left: 45%;
+  width: 40%;
+  font-size: 3rem;
+  color: white;
+  /* font-family: "Nanum Gothic Coding", monospace; */
+}
+
+.image-main {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+}
+
+.image-main img {
+  border-radius: 50%;
+}

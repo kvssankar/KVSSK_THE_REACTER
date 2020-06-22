@@ -1,0 +1,16 @@
+.right-bar {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  right: 0;
+  top: 40%;
+  height: 30%;
+  transform: translateY(-50%);
+  justify-content: space-between;
+  padding: 10px;
+  border-right: 10px solid white;
+}
+.right-bar img {
+  height: 40px;
+  width: 40px;
+}

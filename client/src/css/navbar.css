@@ -1,0 +1,45 @@
+.nav-main {
+  background: transparent;
+  align-items: center;
+}
+
+.nav-part {
+  color: white;
+  margin-right: 30px;
+  text-transform: uppercase;
+}
+
+.circle-div {
+  height: 40px;
+  position: relative;
+  width: 30px;
+  clip-path: circle();
+}
+
+.circle-div img {
+  object-fit: cover;
+}
+
+.circle {
+  position: absolute;
+  border-radius: 50%;
+  clip-path: circle();
+  top: 0;
+  left: 0;
+  width: 100px;
+  height: 100px;
+  background-color: deepskyblue;
+  opacity: 0;
+  animation: scaleIn 2s infinite cubic-bezier(0.36, 0.11, 0.89, 0.32);
+}
+
+@keyframes scaleIn {
+  from {
+    transform: scale(0.5, 0.5);
+    opacity: 0.9;
+  }
+  to {
+    transform: scale(2.5, 2.5);
+    opacity: 0;
+  }
+}

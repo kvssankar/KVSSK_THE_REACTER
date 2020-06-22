@@ -1,0 +1,129 @@
+.bottom1 {
+  position: absolute;
+  width: 45%;
+  height: 30%;
+  bottom: 0;
+  left: 0;
+}
+
+.bottom2 {
+  position: absolute;
+  display: flex;
+  width: 55%;
+  height: 37%;
+  bottom: 0;
+  right: 0;
+}
+
+.img-carsol {
+  height: 100%;
+  width: 100%;
+}
+.img-carsol img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.carousel {
+  position: relative;
+  height: 100%;
+}
+
+.carousel-inner {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  height: 100%;
+}
+
+/* bottom2 */
+
+.left {
+  height: 100%;
+  width: 40%;
+}
+
+.left img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.right {
+  width: 60%;
+  height: 100%;
+}
+
+.right .top {
+  height: 20%;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.right .remain {
+  position: relative;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  z-index: 11;
+  padding: 20px;
+}
+
+.remain h4 {
+  font-size: 1rem;
+  color: white;
+  z-index: 11;
+}
+
+.remain a {
+  z-index: 11;
+  color: white;
+  text-decoration: underline;
+}
+
+.remain-bg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  pointer-events: none;
+  background-size: cover;
+  background-image: url("https://www.solstice.us/wp-content/uploads/2018/06/1J-PcIDrkewUmwrTZuJIIJA-1600x800.jpeg");
+  background-repeat: no-repeat;
+}
+
+.fadey {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  background-color: rgba(0, 0, 0, 0.808);
+  pointer-events: none;
+}
+
+.top-left {
+  display: flex;
+  height: 100%;
+  width: 30%;
+  align-items: center;
+  justify-content: center;
+}
+
+.top-left img {
+  height: 30px;
+  cursor: pointer;
+  margin: 0;
+}
+
+.progress {
+  height: 10%;
+  width: 70%;
+  margin-right: 20px;
+}
